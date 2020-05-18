@@ -24,10 +24,33 @@ section, article {
     font-size: 16px;
     padding: 15px;
     margin: 10px;
+    font-size: 16px;
 }
 
-section p, article {
+section p, article p{
    float: left;
+}
+
+aside {
+    width: 25%;
+    position: fixed;
+    top: 175px;
+    right: 20px;
+    height: 240px;
+    background-color: rgb(211, 168, 200);
+    padding: 15px;
+}
+
+aside p {
+    font-size: 16px;
+}
+
+aside a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 
