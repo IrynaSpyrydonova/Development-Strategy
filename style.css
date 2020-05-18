@@ -27,6 +27,11 @@ section, article {
     font-size: 16px;
 }
 
+section h1, article h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
 section p, article p{
    float: left;
 }
@@ -36,9 +41,17 @@ aside {
     position: fixed;
     top: 175px;
     right: 20px;
-    height: 240px;
-    background-color: rgb(211, 168, 200);
+    height: 380px;
+    background-color:#cccccccc;
     padding: 15px;
+    
+}
+aside h2 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color:blueviolet;
+    padding:20px;
 }
 
 aside p {
@@ -46,11 +59,13 @@ aside p {
 }
 
 aside a{
-    color: white;
+    color: blueviolet;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
+    padding-top: 30px;
+    text-align: center;
 }
 
 
@@ -60,7 +75,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0 20px 0;
-    height: 50;
+    height: 50px;
     position: absolute;
     left: 0;
     right: 0;
